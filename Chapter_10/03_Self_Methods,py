@@ -1,0 +1,43 @@
+
+'''Self Methods  --> instance of a class auto pass with functon call from object '''
+
+
+# class Employee:
+#  name =  "abhii"
+#  salary = 2200000
+#  language =  "Python"
+#  address =  "Singapore"
+
+#  def getInfo(self):
+#   print(f"The lannguage is {self.language} The salary is {self.salary}")
+
+# def greet(self):
+#    print("Good evening")
+
+# abhii = Employee ()
+# abhii.language = "Javascript" # This is instance Object 
+# abhii.getInfo() # This is equal to employee.getInfo(abhii)
+# Employee.getInfo(abhii)
+
+
+class Employee:
+    name = "abhii"
+    salary = 2200000
+    language = "Python"
+    address = "Singapore"
+
+    def getInfo(self):
+        print(f"The language is {self.language}. The salary is {self.salary}")
+
+    def greet(self):
+        print("Good evening")
+
+abhii = Employee()
+abhii.language = "Javascript"  # This is instance Object
+abhii.getInfo()  # This is equal to employee.getInfo(abhii)
+abhii.greet()    # This will print "Good evening"
+
+
+
+
+# print(abhii.name, abhii.salary, abhii.language, abhii.address ) # Creating an onject of employee class
